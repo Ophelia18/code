@@ -1,0 +1,65 @@
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-position {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.circle-100 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.circle-200 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+div {
+    width: 500px;
+    background-color: #dddddd;
+    padding: 20px;
+    margin: 40px auto;
+    position: relative;
+}
+
+.arrow::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-width: 20px;
+    border-style: solid;
+    border-color: #dddddd transparent transparent transparent;
+    position: absolute;
+}
+
+.top::before{
+    left: 246px;
+    transform: rotate(180deg);
+    top: -40px;
+}
+
+.bottom::before{
+    left: 246px;
+    bottom: -40px;
+}
+
+.right::before{
+    left: 540px;
+    transform: rotate(-90deg);
+    top: 10px;
+}
+
+.left::before{
+    left: -40px;
+    transform: rotate(90deg);
+    top: 10px;
+}

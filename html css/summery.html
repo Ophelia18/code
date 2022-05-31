@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+        <!-- Doctype html("5") تدل على انه اخر اصدار من ال Doctype  -->
+<html> 
+        <!-- html: hypertext markup language -->
+  <head>
+    <meta charset="UTF-8" />
+        <!-- ("UTF-8"):  شيفرة ترميز للحروف الأبجدية(جميع لغات)-->
+    <title>AbdulrahmanFE</title>
+        <!-- لقب (اسم) الصفحة -->
+    <meta name="AbdulrahmanFE" content="v1.0" />
+    <meta
+      name="description"
+      content="Just 4 HTML"
+    />
+        <!-- 
+          description => تحتوي على شرح مختصر وخلاصة دقيقة للمحتوى الموجود في الصفحة
+          meta => html البيانات الوصفية التي لا يمكن تمثيلها باستخدام عناصر
+        -->
+  </head>
+  <body>
+    <style></style>
+        <!--    CSS code    -->
+    <link rel="stylesheet" href="" />
+        <!--    CSS connection    -->
+    <script></script>
+        <!--        Java Script      -->
+    <h1>AbdulrahmanFE</h1>
+        <!-- 
+          top heading H1 ~ H6 
+          h*(1~6) use for heading 
+        -->
+    <p>AbdulrahmanFE</p>
+    <p><hr></p>
+        <!-- hr => Horizontal Rule => خط افقي -->
+    <p><b>AbdulrahmanFE</b></p>
+        <!-- بيرتب النص تحت بعض + تكمن بعمل مسافة قبل وبعد <p> فائدة ال  -->
+      <a href="here the link of website"target="_blank"title="click to go to"></a>
+        <!-- 
+          <a href="id هنا بنكتب رابط المتصفح او ايميل او"target="_blank"title="هنا بتحط تنبيه لشخص قبل مايضعط على الرابط الموضع">here the name of the website<a/>  
+          target="_blank" => الموضع في صفخة ثانية(link)الفائدة منه بيفتح ال 
+          Title => هو التنبيه اللي بيطلع للشخص عند الوقوف على الرابط لمعرفة الشخص الي اين سيذهب به الرابط 
+          Wbr => يستخدم ل الرابط اذا كان طويل 
+        -->
+      <img src="" alt="" width="" height="">
+        <!-- 
+          height => px طول الصورة 
+          width => px عرض الصورة 
+          / => يدخل داخل الملف 
+          ../ => (برا ملف البروجكت) يطلع خطوة برا الملف => example => img src="../ (ملف ملف الذي يوجد به الصورة )/(ملف الصورة)" => ( طريقة استدعاء الصورة اذا الملف الصورة برا)
+          src => source => example => img src="images/158094257_117949773672013_5583476506990646211_n.jpg" => (طريقة استدعاء الصورة) اذا الملف داخل ملف المشروع 
+          alt => Alternate text ( بحيث يوجد مشكلة بالصورة بحله )
+        -->
+      <audio src=""></audio>
+        <!--  
+          source => ميزته يمكنك استخدام اكثر من => <audio (attributes)><source scr="(Audio) هنا رابط" type="(Audio) هنا نوع"</audio>
+          Your browser Dose not support the audio => (elements مدون (source) يتم كتابته تحت ) => ذي الرسالة بتطلع اذا لمستخدم اذا المتصفح حقو مابيدعم 
+          controls => نتحكم في الازرار عن طريق => loop => بيخلي ملف الصوتي يعيد مرة ثانية اذا وصل للاخر => autoplay(بخلي ملف الصوتي يشتغل تلقائي) => muted(بخلي ملف لصوتي صامت) 
+                => MIME Types => لمعرفة نوع ملف الصوتي
+        -->
+      <video src=""></video>
+        <!-- 
+          source => <video (attributes)><source scr="(Video) هنا رابط" type="(Video) هنا نوع امتداد"</Video>
+          Your browser Dose not support the video  => (elements مدون (source) يتم كتابته تحت ) => ذي الرسالة بتطلع اذا لمستخدم اذا المتصفح حقو مابيدعم
+          controls => نتحكم في الازرار عن طريق => width"العرض" => height"الطول" => autoplay) => loop) => muted) => 
+          poster => " اذا بدك تحط صورة لحتى يتم تحميل بيانات الفيديو "
+          track => عن طريق الملفات text لوضع => <track src="anyfilewith.vtt" kind="" srclang="lang(اختصار التسمية)" label="التسمية">
+          Preload => خبر الخاصية preload المتصفح أنَّك تريد البدء بتنزيل ملف الفيديو في أقرب فرصة بعد انتهاء تحميل الصفحة
+        -->
+        <!-- 
+                =>---- Global attributes هي العناصر التي تملك سمات مشتركة و تؤثر (و تستخدم) على بعض عناصر ----
+          hidden => Global attribute => (Display) بيخفي النص 
+          class => Global attribute => بيميز النص 
+          id => Global attribute => لتحديد العنصر عند الارتباط 
+          title =>Global attribute => لقب الصفحة او او او
+          div => Global attribute => (حاوية)يستخدم لتجميع المحتوى
+        -->
+        <!-- 
+                =>---- (الكتابة) عناصر التنسيق ----
+          strong => bold => important text
+          b => bold => بيخلي الخط مميز (عريض و اغمق)
+          i => italic => خط مائل
+          em => Emphasized => i خط مائل نفس  
+          mark => (highlighted text) بظلل الكلام
+          u => underline 
+          small => smaller text 
+          del => deleted text : (اذا عملت عرض (خصم) لكي يعرف العميل انه صار خصم ) بيستخدم لشخط الكلام ف له عدة استخدامات احدهم ع الاسعار 
+          ins => inserted text : بحيث ضفت اي شيء جديد عشان يعرف الشخص انك ضفت حاجة جديده سواء كان ع خصم انت مسويه او مقال 
+          sub => subscript : بيخلي الرقم تحت (sub) له دخل بالكيمياء بحيث  تكتب معادلة وكان الرقم تحت ف 
+          sup => superscript : بيخلي الرقم فوق بعض (اسس) 
+          span => (كلام مدون تنسيق) لعزل (لفصل) الكلام 
+          Br => break => لبدأ من سطر جديد 
+          Q => علامة الاقتباس 
+          Blockquote => هو عنصر مهمش و يستخدم اذا كان كلام حكمة او اقتباس
+          bdi => اذا محتوى انكليزي عربي عشان مايتداخل مع بعضو <= لعزل كلام او كلمة عن المحتوى 
+          Pre => بيحافظ على شكل الكلام المكتوب داخله 
+        -->
+        <!--
+                =>---- Entities ----
+          &gt; => تعني اكبر من
+          &lt; => تعني اصغر من 
+          &copy; => علامة كوبي رايت 
+          Entities list => عشان تشوف القائمة كاملة ابحث
+        -->
+        <!-- 
+                =>---- لانشاء قائمة ----
+          ul => unordered list => li => list item => example => <ul> <li> here name of item </li> </ul>
+          ol => ordered list => li => list item => example => <ol> <li> here name of item </li> </ol>
+          dl => description list => dt => term => dd => description term => example => <dl><dt>here name of term</dt><dd>description term</dd></dl>
+          attribute can use with(ul-ol-dl)=> reversed=>reverse the ordering) start=>start from position) type=>type of ordering) value=>value of ordering
+        -->
+        <!-- 
+                =>---- لأنشاء جدول ----
+          caption => (title) لقب الجدول نفس وظيفة 
+          rowspan => لدمج الخلية بصف 
+          colspan => لدمج الخلية افقي 
+          table => من اجل عرض بيانات ومعلومات في هيئة جدول(table) عنصر ال 
+          thead => اسم البيانات اللي بتكون في اعلى الجدول => <table><thead><tr><th>هنا اسم اللي بالاعلى <\th><\tr><\thead><\table>
+          tbody => البيانات اللي بتكون في الجدول => <table><tbody><tr><td>(البيانات)هنا المعلومات<\td><\tr><\tbody><\table>
+          tfoot => المصفوفة اللي بتكون تحت 
+          tr => Table row =>  (المصفوفات)
+          td => Table data cell => خلية البيانات  
+          th => Table header cell =>(bold) بيميز الخط وبخليه عريض نفس
+        -->
+        <!-- 
+                =>---- من مكونات الصفحة ----
+          header => head of the page
+          navigation => nav => غرضه هو توفير روابط للتنقل، سواءً كانت ضمن المستند نفسه أو إلى مستندات أخرى
+          section => عندما نريد أن يظهر قسمٌ جديد في تخطيط الصفحة
+          figure => لعمل حاوية  => figcaption => لوصف الصورة
+          article => الغرض منها هو القدرة على إعادة توزيعها واستخدامها بشكل مستقل، مثل موضوع في منتدى أو مقالة في صحيفة أو تدوينة
+          aside => شريط جانبي
+          footer => (تحت,يتم عرضه على سطر منفرد و لكن هذا ليس الهدف من استخدامه بشكل عام إسم المؤلف معلومات التواصل معه حقوق النشر ,الروابط المتعلقة بالمحتوى يتم وضعها بداخله)
+        -->
+        <!-- 
+                ---- لانشاء نموذج او حقل ----
+          Form => نموذج
+          Input => الحقل => <input type= "text"><input type="password"><input="submit">
+          Reset => (Input) => بيعيد تفريغ البيانات المكتوبة => Submit => (البيانات) بيرسل النموذج او => value => (rest) و (submit) هنا بنكتب اسم (بتختار الاسم على حسب , محل) ال 
+          label => وصف الحقل (يتم كتابه برا الحقل) => <input id=" label اي اسم لربط المحتوى مع "/> <label for=" ( عشان لربط المحتوى Id نفس الاسم اللي حطيته ب ) "></label>
+          Password => (Input) => <input Type="password" minlength (الحد الادنى من عدد كلمة السر) maxlength (الحد الاقصى من كلمة السر)/>
+          Required => (Input)لاجبار المستخدم على عدم ترك الحقل فارغا => مطلوب => داخل ال
+          Placeholder => (Input)يتم وصف الحقل داخل الحقل => داخل ال 
+          Value => (Input) لجعل اسم مسبقا او ايميل مسبقا في خانته => داخل ال
+          Text => (Input) للنص ( متل الاسم و و و) => داخل ال 
+          Email => (Input) للايميل => داخل ال 
+          Name => (Input) داخل ال => (to Rename the information that the Back End developer receive)
+          Action => (form) داخل ال=> to sent (المعلومات ل مطورين باك اند)
+          method => => (form) داخل ال => (poste => بخلي المعلومات المرسوله مشفرة / Get => لا يشفر المعلومات المرسوله )
+          Hidden => (Input) => اذا حاب تخفي معلومات مش يشوفه المستخدم و رح تنبعت مع معلومات
+          Color => (Input) => xx
+          Range => (Input) => النوع => <Input type="rang" name="rang" min="عدد البداية" max="العدد الاقصى" step="كم الخطوة الواحدة " value="العدد اللي يبدأ منه">
+          Number => (Input) => الرقم او رقم هاتف 
+          Readonly => (Input) => ميزته بيحفظ البيانات و بيرسل البيانات و مابخليك تعدل او تغير البيانات
+          Disabled => (Input) => ما بيرسل البيانات و مابخليك تعدل او تغير البيانات + ميزته بيحفظ البيانات
+          Autofocus => (Input) => عشان اول ما الشخص يدخل على الصفحة * يكون تركيزه في الحقل او اول مايدخل على الصفحة يبداء في الحقل 
+                ----  ----
+          Radio => (Input) =>(Radio)بعد ال(label)=> يسمح في اختبار خيار واحد => <input id="" type="Radio" name="os" value=""/> <label for=""> </label> =>
+                  Radio تحمل نفس القيمة لكي يكون فقط خيار واحد ل (name) لازما كل حقول ال <=
+          Checkbox => (Input) =>(Checkbox)بعد ال(label) => يسمح في اختبار عدة خيارات =>  <input id="" type="Checkbox" name="os" value=""/> <label for=""> </label> =>
+          Select => هو حقل يمسح لك اختيار خيار من الاختيارات الموجود داخل الحقل =>option الخيارات => <optgroup label="هنا اسم الصنف"> => (option) لو عندك عدة اقسام او اصناف بيجي قبل ال 
+                  Multiple => هي سمة تسمح في اختيار عدة خيارات => Selected => هي سمة تسمح في حفظ بيانات الشخص 
+          Data List => (Input) => <Input list=" " name=" " /> <datalist Id=""><option value=" "></datalist> => هو يمكنك ان تبحث داخل الخيار (Select) الفرق بينه و بين 
+          Textarea => هو حقل (مثل الصندوق) فارغ لكتابة له عدة استخدامات => cols="عدد الاعمدة" rows="عدد الصفوف"
+          File => (Input) => <Input type="file" /> => لوضع حقل الملف
+          Search => (Input) => <Input type="search" /> => لوضع حقل البحث 
+          URL => (Input) => <Input type="URL" /> => لوضع حقل الرابط
+          Time => (Input) => <Input type="Time" /> => لوضع حقل الوقت
+          Date => (Input) => <Input type="Date" /> => لوضع حقل التاريخ و له عدة استخدامات 
+          Month => (Input) => <Input type="Month" /> => لوضع حقل الشهر 
+          Novalidate => (Form) => (Test stage) ل اختبار الحقول مدون حاجة ل تعبئتها
+          Target => (Form) => target="_blank" => (Test stage) لفتح صفحة ب صفحة جديده
+        -->
+        <!-- 
+          Button => هو زر بتضغط عليه بسوي تنفيذ معين ويستخدم ب الجافا سكريبت 
+          Code => هو عبارة عن (كود او لغة برمجة او او) اذا حاب تكتبو
+          iFrame => اذا حاب تستدعي موقع معين او صفحة معينة ("مش كل المواقع بتسمح انك تستدعيه بصفحتك") على شكل بوكس *طريقة مش منصوح انك تسويه 
+        -->
+        <!--
+                =>---- سهولة الوصول للشخص الكفيف او او )) (الله يشفي كل مصاب يا رب ) ----
+          Accessibility => (Accessibility) طريقة معرفة اذا صفحتك بتراعي ال 
+                  First go to your Page => Click Right (mouse) => click Inspect => go to the lighthouse and do generate report 
+            ----  Screen Readers اللي بستخدم checkbox مثال على ----
+          role => (div) => role="checkbox" => checkbox لمعرفة الشخص الكفيف انو دا نفس فكرة 
+          aria-cheeked => (div) => aria cheeked"false or true" => لمعرفة الشخص الكفيف انو دا مختار من الاساس
+          tabindex => (div) => لسهولة التنقل بين الخيارات
+          aria-labelledby => (div) => لربط المحتوى => <label id=" "></label>
+          HTML Accessibility => لتعمق بمجال ال
+        -->
+  </body>
+</html>

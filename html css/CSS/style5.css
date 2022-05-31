@@ -1,0 +1,44 @@
+div {
+    border: solid 2px orangered;
+    padding: 20px;
+    text-align: center;
+}
+
+p {
+    border: inherit;
+    padding: inherit;
+    background-color: gainsboro;
+    margin: 0px 0px;
+}
+
+.one {
+    font-family: "open sans", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.two {
+    font-family: cairo, sans-serif;
+    font-weight: 700
+}
+
+.three {
+    font-family: Jomhuria, sans-serif;
+    font-weight: 400;
+}
+
+html {
+    font-size: 20px;
+}
+
+.four {
+    font-size: 2.5rem;
+}
+
+.five {
+    font-size: 2rem;
+}
+
+.six {
+    font-size: 1.5rem;
+}

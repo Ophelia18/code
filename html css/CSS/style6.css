@@ -1,0 +1,56 @@
+.parent {
+    width: 800px;
+    background-color: whitesmoke;
+}
+
+.parent div {
+    background-color: gainsboro;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 15px;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.full {
+    width: calc(100% - 30px);
+}
+
+.third {
+    width: calc((100% - 60px) / 3);
+}
+
+.half {
+    width: calc((100% - 45px) / 2);
+}
+
+.quarter {
+    width: calc((100% - 75px) / 4);
+    margin-bottom: 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+.normal,
+.one,
+.two {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: darkgray;
+    color: black;
+}
+
+.one {
+    background-color: rgb(179 179 179 / 0.1);
+}
+
+.two {
+    opacity: 0.1;
+}

@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+--mainColor: #dddddd;
+--mainPadding: 20px;
+--mainMargin: 20px;
+}
+.page {
+    background-color: #eeeeee;
+    display: flex;
+    padding: 20px;
+    height: 600px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footer {
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--mainColor);
+}
+
+.header {
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-area {
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding-left: 0px;
+    width: 90%;
+    background-color: var(--mainColor);
+    display: flex;
+    justify-content: flex-end;
+}
+
+li {
+    padding: var(--mainPadding);
+    /* margin: 20px; */
+}
+
+.logo {
+    width: 8%;
+    padding: var(--mainPadding);
+    background-color: var(--mainColor);
+    padding: var(--mainPadding);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--mainPadding);
+}
+
+.design {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--mainPadding);
+}
+
+.content {
+    width: 59%;
+    background-color: var(--mainColor);
+    margin-top: var(--mainMargin);
+    margin-bottom: var(--mainMargin);
+    padding: var(--mainPadding);
+}
+
+.sidebar {
+    width: 39%;
+    background-color: var(--mainColor);
+    margin-top: var(--mainMargin);
+    margin-bottom: var(--mainMargin);
+    padding: var(--mainPadding);
+}

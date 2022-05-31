@@ -1,0 +1,6 @@
+
+# dependencies
+/learn-react-files
+/node_modules
+/.pnp
+.pnp.js

@@ -1,0 +1,39 @@
+table {
+    width: 700px;
+    margin: auto;
+    border-bottom: 2px solid darkcyan;
+}
+
+.v {
+    background-color: deepskyblue;
+    padding: 5px 10px;
+    margin: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.d {
+    background-color: crimson;
+    padding: 5px 10px;
+    margin: 5px;
+    color: white
+}
+
+td {
+    background-color: whitesmoke;
+    text-align: center;
+    white-space: nowrap;
+    padding: 10px 30px;
+}
+
+thead td {
+    background-color: #404040;
+    color: white;
+    padding: 15px 30px;
+    font-weight: bold;
+}
+
+caption {
+    font-weight: bold;
+    text-align: center;
+}

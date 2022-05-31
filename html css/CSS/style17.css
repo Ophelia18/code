@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+.parent {
+    padding: 80px;
+    margin: 0 auto;
+    background-color: #eeeeee;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    gap: 10px 10px;
+}
+
+h3 {
+    color: #a8a8b9;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.parent div {
+    padding: 40px;
+    border-bottom: 3px solid #ff3d00;
+    position: relative;
+    overflow: hidden;
+}
+
+.parent div::after {
+    content: "\0022";
+    position: absolute;
+    color: #b3b3b3;
+    right: 20px;
+    bottom: -10px;
+    font-size: 4em;
+    font-style: italic;
+}
+
+.osama {
+    grid-column: span 2;
+    grid-row: span 2;
+    background-color: white;
+}
+
+.ahmed {
+    grid-row: span 2;
+    background-color: white;
+}
+
+.shady {
+    grid-row: span 6;
+    background-color: black;
+}
+
+.mohamed {
+    grid-row: span 4;
+    background-color: white;
+}
+
+.mahmoud {
+    grid-column: span 2;
+    grid-row: span 2;
+    background-color: black;
+}
+
+.ezz {
+    grid-column: span 2;
+    grid-row: span 2;
+    background-color: white;
+}
+
+.mahmoud h2,
+.shady h2,
+.ibrahim h2,
+.mahmoud p,
+.shady p,
+.ibrahim p {
+    color: white;
+}
+
+.ibrahim {
+    background-color: black;
+}
+
+.sayed {
+    background-color: white;
+}
+
+p {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}

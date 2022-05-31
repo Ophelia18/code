@@ -1,0 +1,200 @@
+.aa {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    margin: 20px;
+    box-shadow: -5px -5px 0px 0px crimson, 5px 5px 0 0 dodgerblue;
+    position: relative;
+    counter-increment: counterr;
+}
+
+.aa::before {
+    content: counter(counterr);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    left: 40px;
+    top: -10px;
+    color: white;
+text-align: center;
+}
+
+.bb {
+    width: 100px;
+    height: 100px;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 10px 10px;
+    border-bottom-right-radius: 10px 10px;
+    background-color: whitesmoke;
+    margin: 20px auto;
+    box-shadow: 5px 5px 5px 0px  gray inset, -5px -5px 5px 0px  gray inset;
+}
+
+/* .parent {
+    width: 550px;
+    margin: auto;
+    height: 300px;
+}
+
+.left,
+.right {
+    display: inline-block;
+    width: 200px;
+    height: 90%;
+    background-color: whitesmoke;
+    margin: 10px auto;
+    padding: 10px 10px;
+    position: relative;
+}
+
+.line {
+    display: inline-block;
+    height: 100%;
+    width: 1px;
+    margin: 20px 20px;
+    background-color: deepskyblue;
+    position: relative;
+}
+
+.left::before {
+    content: "Basic";
+    display: block;
+    position: absolute;
+    width: 160px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: deepskyblue;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    margin: 10px auto;
+    left: 20px;
+}
+
+.left::after {
+    content: "Free";
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    background-color: gainsboro;
+    border-radius: 50%;
+    top: 80px;
+    left: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 160px;
+    font-size: 1.5em;
+}
+
+.right::before {
+    content: "Pro";
+    display: block;
+    position: absolute;
+    width: 160px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: deepskyblue;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    margin: 10px auto;
+    left: 20px;
+}
+
+.right::after {
+    content: "30$";
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    background-color: gainsboro;
+    border-radius: 50%;
+    top: 80px;
+    left: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 160px;
+    font-size: 1.5em;
+}
+
+.line::after {
+    content: "Or";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: deepskyblue;
+    top: 45%;
+    left: -10px;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    line-height: 20px;
+    font-weight: bold;
+} */
+
+.parent {
+    margin: auto;
+    width: 550px;
+}
+
+.left,
+.right {
+    display: inline-block;
+    width: fit-content;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.line {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    background-color: deepskyblue;
+    text-align: center;
+    line-height: 25px;
+    position: relative;
+    z-index: 2;
+}
+
+.line::after {
+    content: "";
+    height: 300px;
+    width: 2px;
+    position: absolute;
+    background-color: deepskyblue;
+    top: -160px;
+    left: 12px;
+    z-index: 1;
+}
+
+.blue {
+    width: 200px;
+    background-color: deepskyblue;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: gainsboro;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 200px;
+    margin: 10px auto;
+}

@@ -1,0 +1,15 @@
+.grid {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 20px;
+}
+
+.grid div {
+   background-color: #ffffff;
+   border-radius: 10%;
+   padding: 20px;
+}
+
+body {
+   background-color: #ccc;
+}
