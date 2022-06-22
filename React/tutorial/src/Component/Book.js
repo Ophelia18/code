@@ -1,19 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
-class Book extends Component {
-   constructor() {
-      super();
-   }
-   render() {
-      return (
-         <div>
-            <img src={this.props.img} alt="" />
-            <h1>{this.props.name}</h1>
-            <h4>{this.props.auther}</h4>
-         </div>
-      );
-   }
+function Book({ img, name, auther }) {
+   return (
+      <div>
+         <img src={img} alt='' />
+         <h1>{name}</h1>
+         <h4>{auther}</h4>
+      </div>
+   );
 }
 
 Book.propTypes = {
